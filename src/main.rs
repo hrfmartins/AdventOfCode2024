@@ -1,4 +1,4 @@
-use aoc::solutions::day01;
+use aoc::solutions;
 use std::io::stdin;
 
 fn main() {
@@ -6,8 +6,8 @@ fn main() {
     stdin().read_line(&mut input).unwrap();
 
     match input.trim() {
-        "day01" => day01::solution1(),
-        // "solution2" => solution2(),
+        "day01" => solutions::day01::solution1(),
+        "day02" => solutions::day02::solution2(),
         _ => println!("Invalid input"),
     }
 }

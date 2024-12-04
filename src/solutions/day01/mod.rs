@@ -5,7 +5,7 @@ pub fn solution1() {
     let mut numbers1 = vec![0];
     let mut numbers2 = vec![0];
 
-    let file = File::open("inputs/Day1").unwrap();
+    let file = File::open("inputs/Day01").unwrap();
     let reader = BufReader::new(file);
 
     for line in reader.lines() {
