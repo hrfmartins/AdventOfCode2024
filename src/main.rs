@@ -8,6 +8,7 @@ fn main() {
     match input.trim() {
         "day01" => solutions::day01::solution1(),
         "day02" => solutions::day02::solution2(),
+        "day03" => solutions::day03::solution3(),
         _ => println!("Invalid input"),
     }
 }
